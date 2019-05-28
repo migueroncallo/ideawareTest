@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFE157031330CDE46A5E00F6 /* Pods_Ideaware_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11271B05DC6DD789AAF3CAA9 /* Pods_Ideaware_Test.framework */; };
 		DD2FE9A1229C7F4E008BD97B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FE9A0229C7F4E008BD97B /* AppDelegate.swift */; };
 		DD2FE9A3229C7F4E008BD97B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FE9A2229C7F4E008BD97B /* ViewController.swift */; };
 		DD2FE9A6229C7F4E008BD97B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2FE9A4229C7F4E008BD97B /* Main.storyboard */; };
 		DD2FE9A8229C7F50008BD97B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2FE9A7229C7F50008BD97B /* Assets.xcassets */; };
 		DD2FE9AB229C7F50008BD97B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2FE9A9229C7F50008BD97B /* LaunchScreen.storyboard */; };
+		DD2FE9B7229C8522008BD97B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FE9B6229C8522008BD97B /* Constants.swift */; };
+		DD2FE9BA229C856E008BD97B /* MainAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FE9B9229C856E008BD97B /* MainAPI.swift */; };
+		DD2FE9BD229C86EB008BD97B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FE9BC229C86EB008BD97B /* Post.swift */; };
+		DD2FE9BF229C87B9008BD97B /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FE9BE229C87B9008BD97B /* Author.swift */; };
+		DD2FE9C4229C9C3F008BD97B /* MainViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FE9C2229C9C3F008BD97B /* MainViewTableViewCell.swift */; };
+		DD2FE9C5229C9C3F008BD97B /* MainViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2FE9C3229C9C3F008BD97B /* MainViewTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11271B05DC6DD789AAF3CAA9 /* Pods_Ideaware_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ideaware_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		423CCB6F18F00D8467631022 /* Pods-Ideaware Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ideaware Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ideaware Test/Pods-Ideaware Test.release.xcconfig"; sourceTree = "<group>"; };
 		DD2FE99D229C7F4E008BD97B /* Ideaware Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ideaware Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2FE9A0229C7F4E008BD97B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD2FE9A2229C7F4E008BD97B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 		DD2FE9A7229C7F50008BD97B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2FE9AA229C7F50008BD97B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2FE9AC229C7F50008BD97B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2FE9B6229C8522008BD97B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DD2FE9B9229C856E008BD97B /* MainAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAPI.swift; sourceTree = "<group>"; };
+		DD2FE9BC229C86EB008BD97B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DD2FE9BE229C87B9008BD97B /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		DD2FE9C2229C9C3F008BD97B /* MainViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTableViewCell.swift; sourceTree = "<group>"; };
+		DD2FE9C3229C9C3F008BD97B /* MainViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewTableViewCell.xib; sourceTree = "<group>"; };
+		F5D1799F243D4A4F8C1D7A2D /* Pods-Ideaware Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ideaware Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ideaware Test/Pods-Ideaware Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFE157031330CDE46A5E00F6 /* Pods_Ideaware_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				DD2FE99F229C7F4E008BD97B /* Ideaware Test */,
 				DD2FE99E229C7F4E008BD97B /* Products */,
+				EAD3761E7401A44833585180 /* Pods */,
+				E3D7AE6750BF79B30BB27E86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,85 @@
 		DD2FE99F229C7F4E008BD97B /* Ideaware Test */ = {
 			isa = PBXGroup;
 			children = (
+				DD2FE9BB229C86D9008BD97B /* Models */,
+				DD2FE9B8229C855E008BD97B /* API */,
+				DD2FE9B5229C850D008BD97B /* Resources */,
+				DD2FE9B2229C83EC008BD97B /* Views */,
 				DD2FE9A0229C7F4E008BD97B /* AppDelegate.swift */,
-				DD2FE9A2229C7F4E008BD97B /* ViewController.swift */,
 				DD2FE9A4229C7F4E008BD97B /* Main.storyboard */,
-				DD2FE9A7229C7F50008BD97B /* Assets.xcassets */,
 				DD2FE9A9229C7F50008BD97B /* LaunchScreen.storyboard */,
 				DD2FE9AC229C7F50008BD97B /* Info.plist */,
 			);
 			path = "Ideaware Test";
+			sourceTree = "<group>";
+		};
+		DD2FE9B2229C83EC008BD97B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD2FE9B3229C83F9008BD97B /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD2FE9B3229C83F9008BD97B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				DD2FE9B4229C8409008BD97B /* MainViewCells */,
+				DD2FE9A2229C7F4E008BD97B /* ViewController.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		DD2FE9B4229C8409008BD97B /* MainViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				DD2FE9C2229C9C3F008BD97B /* MainViewTableViewCell.swift */,
+				DD2FE9C3229C9C3F008BD97B /* MainViewTableViewCell.xib */,
+			);
+			path = MainViewCells;
+			sourceTree = "<group>";
+		};
+		DD2FE9B5229C850D008BD97B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD2FE9A7229C7F50008BD97B /* Assets.xcassets */,
+				DD2FE9B6229C8522008BD97B /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD2FE9B8229C855E008BD97B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DD2FE9B9229C856E008BD97B /* MainAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DD2FE9BB229C86D9008BD97B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD2FE9BC229C86EB008BD97B /* Post.swift */,
+				DD2FE9BE229C87B9008BD97B /* Author.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3D7AE6750BF79B30BB27E86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11271B05DC6DD789AAF3CAA9 /* Pods_Ideaware_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD3761E7401A44833585180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1799F243D4A4F8C1D7A2D /* Pods-Ideaware Test.debug.xcconfig */,
+				423CCB6F18F00D8467631022 /* Pods-Ideaware Test.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD2FE9AF229C7F50008BD97B /* Build configuration list for PBXNativeTarget "Ideaware Test" */;
 			buildPhases = (
+				D62DB475B3DF607B9E85D2EB /* [CP] Check Pods Manifest.lock */,
 				DD2FE999229C7F4E008BD97B /* Sources */,
 				DD2FE99A229C7F4E008BD97B /* Frameworks */,
 				DD2FE99B229C7F4E008BD97B /* Resources */,
+				C11393E03546540D8FC5ECE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2FE9AB229C7F50008BD97B /* LaunchScreen.storyboard in Resources */,
+				DD2FE9C5229C9C3F008BD97B /* MainViewTableViewCell.xib in Resources */,
 				DD2FE9A8229C7F50008BD97B /* Assets.xcassets in Resources */,
 				DD2FE9A6229C7F4E008BD97B /* Main.storyboard in Resources */,
 			);
@@ -130,13 +223,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C11393E03546540D8FC5ECE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ideaware Test/Pods-Ideaware Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ideaware Test/Pods-Ideaware Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62DB475B3DF607B9E85D2EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ideaware Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD2FE999229C7F4E008BD97B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2FE9BF229C87B9008BD97B /* Author.swift in Sources */,
 				DD2FE9A3229C7F4E008BD97B /* ViewController.swift in Sources */,
 				DD2FE9A1229C7F4E008BD97B /* AppDelegate.swift in Sources */,
+				DD2FE9BA229C856E008BD97B /* MainAPI.swift in Sources */,
+				DD2FE9C4229C9C3F008BD97B /* MainViewTableViewCell.swift in Sources */,
+				DD2FE9B7229C8522008BD97B /* Constants.swift in Sources */,
+				DD2FE9BD229C86EB008BD97B /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +429,11 @@
 		};
 		DD2FE9B0229C7F50008BD97B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D1799F243D4A4F8C1D7A2D /* Pods-Ideaware Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N8YFLZUT;
 				INFOPLIST_FILE = "Ideaware Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +448,11 @@
 		};
 		DD2FE9B1229C7F50008BD97B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423CCB6F18F00D8467631022 /* Pods-Ideaware Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N8YFLZUT;
 				INFOPLIST_FILE = "Ideaware Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
